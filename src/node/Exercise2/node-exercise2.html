@@ -1,0 +1,59 @@
+<!--
+In your Node project folder, create a folder 'AppPages' with a file 'page1.html'
+paste in the following code
+-->
+<!DOCTYPE html>
+ 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>The Page Returned by Making Http Call to Node.js</title>
+    <style type="text/css">
+        table, td {
+          border:double;
+        }
+    </style>
+</head>
+<body>
+    <SCRIPT LANGUAGE = "Javascript">
+        //assigns value to variable
+        test ="Display some text"
+        
+        // opens document and uses methods to modify text characteristics
+        document.open()
+        document.write(test.bold()+"<P>")
+        document.write(test.fontsize(7)+"<P>")
+        document.write(test.fontcolor("red")+"<P>")
+        document.write(test.toUpperCase()+"<P>")
+        
+        //assigns multiple characteristics to text
+        document.write(test.italics().fontsize(6).fontcolor("green")+"<P>")
+        document.open()
+        </SCRIPT>
+        
+
+    <h1>Node Server Index Html Page</h1>
+    <table>
+        <tr>
+            <td>Product Id:</td>
+            <td>
+                <input type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td>Product Name:</td>
+            <td>
+                <input type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="button"  value="Save"/>
+            </td>
+        </tr>
+    </table>
+ 
+ 
+</body>
+</html>

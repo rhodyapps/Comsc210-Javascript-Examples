@@ -15,7 +15,7 @@ Introduction to Javascript
 3. Check the origin pointers using the command:
 >$ git remote show origin (you shoud see the fetch and push pointers to the rhodyapps repo)
 
-4. In your own Github account create a new repo using the same name 'comsc230-javascript-examples'.
+4. In your own Github account create a new repo using the same name 'comsc210-javascript-examples'.
    Once the repo is created highlight and copy the url
 
 5. On your machine in the Terminal repoint the repo to your own version using the following commands:
